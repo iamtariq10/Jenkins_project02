@@ -10,15 +10,14 @@ function Images() {
 return (
     <>
     
-    <Row>
-   <Col>
+    <div className="ImageCards">
+   
    
     <Image className="Img" src={Img} alt="Image" fluid />
-    </Col>
-    <Col>
-    <Cards/>
-    </Col>
-    </Row>
+   
+    <Cards className="Cards" />
+    
+    </div>
     
 </>
 )

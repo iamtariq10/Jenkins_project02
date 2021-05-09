@@ -1,6 +1,6 @@
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import Jenkins from "./JenkinsImage.png";
+
 
 function Cards() {
   return (

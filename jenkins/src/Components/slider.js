@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import slide1 from './1.jpg';
+
 import {
   Carousel,
   CarouselItem,
