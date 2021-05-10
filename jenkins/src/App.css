@@ -1,3 +1,6 @@
+*{
+  scroll-behavior: smooth;
+}
 .App {
   text-align: center;
 }
@@ -41,5 +44,50 @@
 
   width: 20rem;
   margin-top: 2rem;
+  margin-right: 10rem;
+  margin-bottom: 2rem;
+}
+.ImageCards{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20rem;
   
+}
+
+@media only screen and (max-width: 430px) {
+  .ImageCards {
+    margin: 0;
+  }
+}
+
+
+.RowFlex{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+}
+
+
+.Column{
+  
+  margin: 0 2rem;
+}
+
+.Media-container{
+  margin: 5rem;
+  background-color: aliceblue;
+}
+
+Media{
+  padding: 2rem;
+}
+
+.Media-container h4{
+  text-decoration: underline;
+}
+
+.Media-container a{
+  text-decoration: underline;
+
 }

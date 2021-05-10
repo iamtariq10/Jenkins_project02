@@ -5,6 +5,11 @@ import img3 from '../Components/tab.png'
 import img4 from '../Components/over.png';
 import img5 from '../Components/down.png';
 import { Container, Row, Col } from 'reactstrap';
+import ModalExample from './Modal';
+import Medias from './Media';
+import Images from './Images';
+
+import Footer from '../Components/footer';
 
 const Containers = (props) => {
   return (
@@ -78,6 +83,20 @@ const Containers = (props) => {
       </Row>
 
       </Container>
+      <ModalExample/>
+
+      <Medias/>
+      <Images/>
+
+
+
+
+    <Footer/>
+
+      
+
+
+
     </>
   );
 };

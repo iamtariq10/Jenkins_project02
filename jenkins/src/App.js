@@ -3,13 +3,12 @@ import './App.css';
 import React from 'react';
 import Navbar from "./Components/nav";
 import Images from "./Components/img";
-import ControlledCarousel from './Components/Caresoul';
 import Example from './Components/slider';
 import Iframes from './iframe';
 import Containers from './Components/belowSlider';
 
 
-import {render} from 'react-dom';
+import Footer from './Components/footer';
 
 
 
@@ -25,6 +24,7 @@ function App() {
    <Iframes/>
 
    <Containers/>
+   
    
 
     </div>
